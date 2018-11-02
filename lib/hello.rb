@@ -1,13 +1,13 @@
 def hello_t(names)
   if names.size==0
-    puts
+      puts
   else
-  names.each do |name|
-    big_name=name.upcase;
-    puts "#{big_name}"
+    names.each do |name|
+      big_name=name.upcase;
+      puts "#{big_name}"
+    end
+    names
   end
-  names
-end
 end
 
 # call your method here!

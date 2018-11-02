@@ -1,11 +1,6 @@
 def hello_t(names)
-  if names.size==0
-      puts "Hey! No block was given!"
-  else
     yield(names)
-    names
-  end
-end
+end1
 
 # call your method here!
 

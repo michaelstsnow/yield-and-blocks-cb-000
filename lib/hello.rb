@@ -1,6 +1,6 @@
 def hello_t(names)
   if names.size==0
-      puts
+      puts "Hey! No block was given!"
   else
     names.each do |name|
       big_name=name.upcase;

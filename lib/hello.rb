@@ -13,5 +13,5 @@ end
 
 # call your method here!
 
-names=["Mike","John","Chris"];
-hello_t(names) {|names| puts "#{name}
+#names=["Mike","John","Chris"];
+#hello_t(names) {|names| puts "#{name}

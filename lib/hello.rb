@@ -3,6 +3,7 @@ def hello_t(names)
     big_name=name.upcase;
     puts "#{big_name}"
   end
+  names
 end
 
 # call your method here!

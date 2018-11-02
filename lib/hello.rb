@@ -1,11 +1,12 @@
 def hello_t(names)
   if block_given?
     i=0;
-    while 1<names.length
-    yield(names)
+    while 1<names.size
+      yield(names)
+    end
     names
   else
-    puts "Hey! No block was given!" 
+    puts "Hey! No block was given!"
   end
 end
 

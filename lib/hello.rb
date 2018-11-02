@@ -3,6 +3,7 @@ def hello_t(names)
     i=0;
     while 1<names.size
       yield(names)
+      i+=1;
     end
     names
   else

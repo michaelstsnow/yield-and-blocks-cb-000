@@ -1,6 +1,6 @@
 def hello_t(names)
     yield(names)
-end1
+end
 
 # call your method here!
 
